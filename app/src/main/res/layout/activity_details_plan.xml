@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dragus.ellouzeandpartners.activities.DetailsPlanActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/orange_title"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/title_style"
+            android:text="@string/text_dragus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/left_layout"
+        android:layout_width="270dp"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_below="@+id/linearLayout"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_dark_material_dark"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textview_blackbars_style"
+                android:text="@string/text_reserv" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <Spinner
+                android:id="@+id/spinner_reserv_post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/array_reserv_posts" />
+
+            <ImageButton
+                android:id="@+id/btn_drag_reserv_post"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_drag" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_dark_material_dark"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textview_blackbars_style"
+                android:text="@string/text_gest_collab" />
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+
+            <ImageButton
+                android:id="@+id/btn_add_collab"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="80dp"
+                android:src="@drawable/ic_add" />
+
+
+            <ImageButton
+                android:id="@+id/btn_drag_post"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_drag" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/customborder"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp">
+
+            <ListView
+                android:id="@+id/list_added_collab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/center_right_layout"
+        android:layout_width="420dp"
+        android:layout_height="fill_parent"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_toRightOf="@+id/left_layout"
+        android:layout_below="@+id/linearLayout"
+        android:orientation="horizontal">
+
+
+
+            <TextView
+                android:id="@+id/text_drag"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="100dp"
+                android:text="@string/text_free"
+                />
+
+        <FrameLayout
+            android:id="@+id/layout_drag_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/gray"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+
+        </FrameLayout>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

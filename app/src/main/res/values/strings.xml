@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dragus</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_plans">ListPlansActivity</string>
+    <string name="title_activity_details_plan">DetailsPlanActivity</string>
+    <string name="text_connexia">ConneXia</string>
+    <string name="text_sect_disp">Secteurs disponibles</string>
+    <string name="text_id">Identifiant  :</string>
+    <string name="text_pwd">Mot de passe :</string>
+    <string name="text_active_session">Garder ma session active</string>
+    <string name="text_btn_cn">OK</string>
+    <string name="text_no_user">Le mot de passe ou l\'identifiant que vous avez saisi n\'est pas correct ! Veuillez réessayer.</string>
+    <string name="text_empty_fields">Le mot de passe ou l\'identifiant que vous avez saisi est vide ! Veuillez réessayer.</string>
+    <string name="text_list_sect">Liste des secteurs</string>
+    <string name="text_collab">Collab. Placés </string>
+    <string name="text_occup">Postes Occup. </string>
+    <string name="text_pass">Postes Passag. </string>
+    <string name="text_pouv">Postes à Pouv. </string>
+    <string name="text_tech">Postes Techni. </string>
+    <string name="text_lib">Postes Libres </string>
+    <string name="text_tot_postes">N. Total Postes </string>
+    <string name="text_tot">Totaux</string>
+    <string name="text_dragus">Dragus</string>
+    <string name="text_reserv">Réservation de postes</string>
+    <string name="text_gest_collab">Gestion de collaborateurs</string>
+    <string name="text_dismiss">Annuler</string>
+    <string name="text_ok">OK</string>
+    <string name="text_search">Rechercher :</string>
+    <string name="text_valid_remove">Voulez-vous vraiment supprimer le collaborateur </string>
+    <string name="text_free">Libre </string>
+
+
+
+
+    <string-array name="array_reserv_posts">
+        <item>Poste de passage</item>
+        <item>Poste à pouvoir</item>
+        <item>Poste technique</item>
+    </string-array>
+
+
+
+</resources>

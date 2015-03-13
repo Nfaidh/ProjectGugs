@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dragus.ellouzeandpartners.activities.ListPlansActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/orange_title"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/title_style"
+            android:text="@string/text_sect_disp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/linearLayout"
+        android:background="@color/gray"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="15dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/title_list_sect"
+                style="@style/textview_bars_style"
+                android:layout_weight="1"
+                android:text="@string/text_list_sect" />
+
+            <TextView
+                style="@style/textview_bars_style"
+                android:text="@string/text_collab" />
+
+            <TextView
+                style="@style/textview_bars_style"
+                android:text="@string/text_occup" />
+
+            <TextView
+                style="@style/textview_bars_style"
+                android:text="@string/text_pass" />
+
+
+            <TextView
+                style="@style/textview_bars_style"
+                android:text="@string/text_pouv" />
+
+            <TextView
+                style="@style/textview_bars_style"
+                android:text="@string/text_tech" />
+
+            <TextView
+                style="@style/textview_bars_style"
+                android:text="@string/text_lib" />
+
+            <TextView
+                style="@style/textview_bars_style"
+                android:text="@string/text_tot_postes" />
+
+            <TextView
+                style="@style/textview_bars_style"
+                android:layout_weight="0.25"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_plans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="120dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="15dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                style="@style/textview_bars_style"
+                android:layout_weight="1"
+                android:text="@string/text_tot" />
+
+            <TextView
+                android:id="@+id/id_tot_collab"
+                style="@style/textview_bars_style" />
+
+            <TextView
+                android:id="@+id/id_tot_post_occup"
+                style="@style/textview_bars_style" />
+
+            <TextView
+                android:id="@+id/id_tot_post_passg"
+                style="@style/textview_bars_style" />
+
+
+            <TextView
+                android:id="@+id/id_tot_post_power"
+                style="@style/textview_bars_style" />
+
+            <TextView
+                android:id="@+id/id_tot_post_tech"
+                style="@style/textview_bars_style" />
+
+            <TextView
+                android:id="@+id/id_tot_post_freed"
+                style="@style/textview_bars_style" />
+
+            <TextView
+                android:id="@+id/id_tot_tot_posts"
+                style="@style/textview_bars_style" />
+
+
+            <TextView
+                style="@style/textview_bars_style"
+                android:layout_weight="0.25"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

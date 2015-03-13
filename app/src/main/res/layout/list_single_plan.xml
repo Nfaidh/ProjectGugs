@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            style="@style/textview_bars_style"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:id="@+id/plan_name" />
+
+        <TextView
+            android:id="@+id/id_collab"
+            style="@style/textview_bars_style" />
+
+        <TextView
+            android:id="@+id/id_post_occup"
+            style="@style/textview_bars_style"
+            android:textColor="@color/red" />
+
+        <TextView
+            android:id="@+id/id_post_passg"
+            style="@style/textview_bars_style"
+            android:textColor="@color/orange" />
+
+
+        <TextView
+            android:id="@+id/id_post_power"
+            style="@style/textview_bars_style"
+            android:textColor="@color/purple" />
+
+        <TextView
+            android:id="@+id/id_post_tech"
+            style="@style/textview_bars_style"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/id_post_freed"
+            style="@style/textview_bars_style"
+            android:textColor="@color/green" />
+
+
+        <TextView
+            android:id="@+id/id_tot_posts"
+            style="@style/textview_bars_style" />
+
+        <ImageView
+            style="@style/textview_bars_style"
+            android:layout_weight="0.25"
+            android:layout_margin="0dp"
+            android:background="@drawable/ic_arrow" />
+    </LinearLayout>
+</LinearLayout>
